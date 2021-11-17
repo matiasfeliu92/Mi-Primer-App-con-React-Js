@@ -1,0 +1,17 @@
+.contenedor {
+    background-color:cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor:hover {
+    background-color: darkblue;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+}
