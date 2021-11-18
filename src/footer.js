@@ -2,6 +2,10 @@ import React from "react";
 import './styles.css'
 
 class Footer extends React.Component {
+
+    clickear = () => {
+        alert ('hellooo motooo')
+    }
     render () {
         return (
             <div className="container-fluid">
@@ -10,6 +14,7 @@ class Footer extends React.Component {
                         <em>
                             dfdefedgeggrg
                         </em>
+                        <button id="boton1" onClick= {this.clickear} className="btn btn-danger">haz click aqui</button>
                     </div>
                 </div>
             </div>
